@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"To implement the API automated checks over our DEMO PET STORE","Post a new available pet to the store. Assert new pet added.","SUCCESS","2020-10-19T15:44:18.316+05:30[Asia/Calcutta]","0.0","10.01"
+"To implement the API automated checks over our DEMO PET STORE","Get ""available"" pets. Assert expected result","SUCCESS","2020-10-19T15:44:28.38+05:30[Asia/Calcutta]","0.0","2.93"
+"To implement the API automated checks over our DEMO PET STORE","Update this pet status to ""sold"". Assert status updated","SUCCESS","2020-10-19T15:44:31.311+05:30[Asia/Calcutta]","0.0","2.08"
+"To implement the Web automated checks over DEMO ONLINE SHOP","Customer navigation through product categories","SUCCESS","2020-10-19T15:44:41.622+05:30[Asia/Calcutta]","0.0","61.48"

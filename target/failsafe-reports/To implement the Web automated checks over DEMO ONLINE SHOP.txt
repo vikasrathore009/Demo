@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: To implement the Web automated checks over DEMO ONLINE SHOP
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.82 s - in To implement the Web automated checks over DEMO ONLINE SHOP

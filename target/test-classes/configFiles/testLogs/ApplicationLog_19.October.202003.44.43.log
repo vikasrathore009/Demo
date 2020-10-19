@@ -1,0 +1,14 @@
+19/10/2020 15:44:43 automation All the browser instances are killed successfully before execution
+19/10/2020 15:45:25 automation Laptop Price= 790
+19/10/2020 15:45:28 automation Name is entered successfully
+19/10/2020 15:45:30 automation Country is entered successfully
+19/10/2020 15:45:31 automation City is entered successfully
+19/10/2020 15:45:33 automation Card is entered successfully
+19/10/2020 15:45:35 automation Month is entered successfully
+19/10/2020 15:45:36 automation Year is entered successfully
+19/10/2020 15:45:40 automation Purchase Info = Id: 5151807
+Amount: 790 USD
+Card Number: 12345
+Name: Name
+Date: 19/9/2020
+19/10/2020 15:45:40 automation  Purchase amount equals expected

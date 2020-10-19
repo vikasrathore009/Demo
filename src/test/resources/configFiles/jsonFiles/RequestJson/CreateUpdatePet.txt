@@ -1,0 +1,18 @@
+{
+    "id": "idToBeUpdated",
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "nameToBeUpdated",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "statusToBeUpdated"
+}

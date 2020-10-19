@@ -1,0 +1,12 @@
+com\automation\utility\Utility.class
+Parallel01IT.class
+com\automation\base\SerenityBase.class
+com\automation\stepdefinitions\Adidas_StepDef.class
+com\automation\runnerFile\RunnerCukes.class
+com\automation\utility\PropertyManager.class
+com\automation\stepdefinitions\AdidasUI_StepDef.class
+com\automation\utility\InitClass.class
+com\automation\utility\ResponseUtils.class
+Parallel02IT.class
+com\automation\utility\PropertyHolder.class
+com\automation\endpoints\APIEndPoints.class

@@ -1,0 +1,311 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Customer navigation through product categories: Phones, Laptops and Monitors",
+        "description": "",
+        "id": "to-implement-the-web-automated-checks-over-demo-online-shop;customer-navigation-through-product-categories:-phones--laptops-and-monitors",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19680421700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to \"URL\" via \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 19
+                },
+                {
+                  "val": "chrome",
+                  "offset": 29
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_navigates_to_something_via_something_browser(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7025094500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User \"Add to cart\" a laptop \"Sony vaio i5\" from category \"Laptops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add to cart",
+                  "offset": 6
+                },
+                {
+                  "val": "Sony vaio i5",
+                  "offset": 29
+                },
+                {
+                  "val": "Laptops",
+                  "offset": 58
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_something_a_laptop_something_from_category_something(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2354667900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to \"Home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 19
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_navigates_to_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7163823900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User \"Add to cart\" a laptop \"Dell i7 8gb\" from category \"Laptops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add to cart",
+                  "offset": 6
+                },
+                {
+                  "val": "Dell i7 8gb",
+                  "offset": 29
+                },
+                {
+                  "val": "Laptops",
+                  "offset": 57
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_something_a_laptop_something_from_category_something(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2373540400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user \"move\" on \"Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "move",
+                  "offset": 6
+                },
+                {
+                  "val": "Cart",
+                  "offset": 16
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_something_on_something(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1712288400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user \"Delete\" the item \"Dell i7 8gb\" from cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delete",
+                  "offset": 6
+                },
+                {
+                  "val": "Dell i7 8gb",
+                  "offset": 24
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_something_the_item_something_from_cart(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2620280800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fetches info for item \"Sony vaio i5\" from cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sony vaio i5",
+                  "offset": 28
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_fetches_info_for_item_something_from_cart(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1658425000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user \"click\" on \"Place Order\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click",
+                  "offset": 6
+                },
+                {
+                  "val": "Place Order",
+                  "offset": 17
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_something_on_something(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9990865800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fills the place order form using following details",
+            "match": {
+              "location": "AdidasUI_StepDef.user_fills_the_place_order_form_using_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Country",
+                  "City",
+                  "Card",
+                  "Month",
+                  "Year"
+                ]
+              },
+              {
+                "cells": [
+                  "Name",
+                  "Country",
+                  "City",
+                  "12345",
+                  "12",
+                  "2020"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1640975900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user \"click\" on \"Purchase\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click",
+                  "offset": 6
+                },
+                {
+                  "val": "Purchase",
+                  "offset": 17
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_something_on_something(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1784016500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user fetches the purchase info",
+            "match": {
+              "location": "AdidasUI_StepDef.user_fetches_the_purchase_info()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3823400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user verifies \"laptopAmount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "laptopAmount",
+                  "offset": 15
+                }
+              ],
+              "location": "AdidasUI_StepDef.user_verifies_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2792131900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user quits the browser",
+            "match": {
+              "location": "AdidasUI_StepDef.user_quits_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UITest"
+          }
+        ]
+      }
+    ],
+    "name": "To implement the Web automated checks over DEMO ONLINE SHOP",
+    "description": "",
+    "id": "to-implement-the-web-automated-checks-over-demo-online-shop",
+    "keyword": "Feature",
+    "uri": "C:/Users/vikash.rathore/Downloads/jha_api_automation/src/test/resources/features/AdidasUI.feature",
+    "tags": [
+      {
+        "name": "@UITest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

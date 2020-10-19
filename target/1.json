@@ -1,0 +1,345 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Post a new available pet to the store. Assert new pet added.",
+        "description": "",
+        "id": "to-implement-the-api-automated-checks-over-our-demo-pet-store;post-a-new-available-pet-to-the-store.-assert-new-pet-added.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 436086900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User set valid endpoint to \"POST_PUT_PET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "POST_PUT_PET",
+                  "offset": 28
+                }
+              ],
+              "location": "Adidas_StepDef.user_set_valid_endpoint_to_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8238045300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User send the \"Post\" request with valid json having following details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Post",
+                  "offset": 15
+                }
+              ],
+              "location": "Adidas_StepDef.user_send_the_something_request_with_valid_json_having_following_details(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "description",
+                  "Key",
+                  "Value"
+                ]
+              },
+              {
+                "cells": [
+                  "key to be updated",
+                  "nameToBeUpdated",
+                  "TestProject"
+                ]
+              },
+              {
+                "cells": [
+                  "key to be updated",
+                  "statusToBeUpdated",
+                  "Available"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4145100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Server should return \"200\" Status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "Adidas_StepDef.server_should_return_Status(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 533919900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "pet id is generated in response",
+            "match": {
+              "location": "Adidas_StepDef.pet_id_is_generated_in_response()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@APITest"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Get \"available\" pets. Assert expected result",
+        "description": "",
+        "id": "to-implement-the-api-automated-checks-over-our-demo-pet-store;get-\"available\"-pets.-assert-expected-result;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2515100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User set valid endpoint to \"GET_PETS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET_PETS",
+                  "offset": 28
+                }
+              ],
+              "location": "Adidas_StepDef.user_set_valid_endpoint_to_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1785624400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User send the Get request with query param",
+            "match": {
+              "location": "Adidas_StepDef.user_send_the_Get_request_with_query_param(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "description",
+                  "Key",
+                  "Value"
+                ]
+              },
+              {
+                "cells": [
+                  "param to be passed",
+                  "status",
+                  "available"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 507600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Server should return \"200\" Status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "Adidas_StepDef.server_should_return_Status(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1128598800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify response has available pets",
+            "match": {
+              "arguments": [
+                {
+                  "val": "available",
+                  "offset": 20
+                }
+              ],
+              "location": "Adidas_StepDef.verify_response_has_pets(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@APITest"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Update this pet status to \"sold\". Assert status updated",
+        "description": "",
+        "id": "to-implement-the-api-automated-checks-over-our-demo-pet-store;update-this-pet-status-to-\"sold\".-assert-status-updated;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4273300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User set valid endpoint to \"POST_PUT_PET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "POST_PUT_PET",
+                  "offset": 28
+                }
+              ],
+              "location": "Adidas_StepDef.user_set_valid_endpoint_to_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2018146900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User send the \"Putt\" request with valid json having following details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Putt",
+                  "offset": 15
+                }
+              ],
+              "location": "Adidas_StepDef.user_send_the_something_request_with_valid_json_having_following_details(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "description",
+                  "Key",
+                  "Value"
+                ]
+              },
+              {
+                "cells": [
+                  "key to be updated",
+                  "nameToBeUpdated",
+                  "TestProject"
+                ]
+              },
+              {
+                "cells": [
+                  "key to be updated",
+                  "statusToBeUpdated",
+                  "sold"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 421700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Server should return \"200\" Status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "Adidas_StepDef.server_should_return_Status(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10823400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "pet id is generated in response",
+            "match": {
+              "location": "Adidas_StepDef.pet_id_is_generated_in_response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9829200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "verify response has sold pets",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sold",
+                  "offset": 20
+                }
+              ],
+              "location": "Adidas_StepDef.verify_response_has_pets(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@APITest"
+          }
+        ]
+      }
+    ],
+    "name": "To implement the API automated checks over our DEMO PET STORE",
+    "description": "",
+    "id": "to-implement-the-api-automated-checks-over-our-demo-pet-store",
+    "keyword": "Feature",
+    "uri": "C:/Users/vikash.rathore/Downloads/jha_api_automation/src/test/resources/features/Adidas.feature",
+    "tags": [
+      {
+        "name": "@APITest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
