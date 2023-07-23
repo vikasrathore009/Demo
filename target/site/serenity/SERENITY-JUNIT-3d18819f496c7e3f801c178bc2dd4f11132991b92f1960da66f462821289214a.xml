@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="To implement the Web automated checks over DEMO ONLINE SHOP" skipped="0" tests="1" time="61.48" timestamp="2020-10-19 03:44:41"><testcase name="Customer navigation through product categories"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="To implement the Web automated checks over DEMO ONLINE SHOP" skipped="0" tests="1" time="26.45" timestamp="2023-07-24 01:49:17"><testcase name="Customer navigation through product categories"><error message="Cannot locate an element using By.xpath: //td[contains(text(),'Dell i7 8gb')]/ancestor::tr/td/a[contains(text(),'Delete')]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'PRIYAVIK', ip: '192.168.29.234', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'PRIYAVIK', ip: '192.168.29.234', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Cannot locate an element using By.xpath: //td[contains(text(),'Dell i7 8gb')]/ancestor::tr/td/a[contains(text(),'Delete')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PRIYAVIK', ip: '192.168.29.234', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PRIYAVIK', ip: '192.168.29.234', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: unknown</error><system-err>Cannot locate an element using By.xpath: //td[contains(text(),'Dell i7 8gb')]/ancestor::tr/td/a[contains(text(),'Delete')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PRIYAVIK', ip: '192.168.29.234', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PRIYAVIK', ip: '192.168.29.234', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: unknown&#13;
+com.automation.stepdefinitions.AdidasUI_StepDef.dynamicWait(AdidasUI_StepDef.java:126)&#13;
+com.automation.stepdefinitions.AdidasUI_StepDef.user_something_the_item_something_from_cart(AdidasUI_StepDef.java:83)&#13;
+✽.user "Delete" the item "Dell i7 8gb" from cart(src/test/resources/features/AdidasUI.feature:10)&#13;
+</system-err></testcase></testsuite>

@@ -6,8 +6,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 strict = true,
-features = {"C:/Users/vikash.rathore/Downloads/jha_api_automation/src/test/resources/features/AdidasUI.feature"},
-plugin = {"json:C:/Users/vikash.rathore/Downloads/jha_api_automation/target/2.json"},
+features = {"C:/code_auto/Demo/src/test/resources/features/FB_Demo_Assignment.feature"},
+plugin = {"json:C:/code_auto/Demo/target/1.json"},
 monochrome = false,
 tags = {},
 glue = {"com.automation.stepdefinitions"})
